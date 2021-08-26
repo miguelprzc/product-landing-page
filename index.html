@@ -10,6 +10,7 @@
     integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
   <link rel="stylesheet" href="styles.css">
 
+  
   <title>Product Landing Page by miguelprzc</title>
 </head>
 
@@ -20,9 +21,9 @@
       id="header-img" class="brand-logo">
     <nav id="nav-bar">
       <ul>
-        <li id="nav-link"><a href="#fetures">Features</a></li>
-        <li id="nav-link"><a href="#how-it-works">How It Works</a></li>
-        <li id="nav-link"><a href="#pricing">Pricing</a></li>
+        <li><a class="nav-link" href="#features">Features</a></li>
+        <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
+        <li><a class="nav-link" href="#pricing">Pricing</a></li>
       </ul>
     </nav>
   </header>
@@ -31,11 +32,11 @@
     <div class="container">
       <h1 class="title">Handcrafted, home-made masterpieces</h1>
       <form action="https://www.freecodecamp.com/email-submit" id="form">
-        <input type="email" id="email" class="email" placeholder="Enter your email address">
-        <input type="submit" class="submit" value="GET STARTED">
+        <input type="email" id="email" name="email" class="email" placeholder="Enter your email address" required>
+        <input type="submit" id="submit" class="submit" value="GET STARTED">
       </form>
 
-      <section id="features">
+      <section id="features" class="features">
         <div class="grid">
           <div class="icon">
             <i class="fa fa-3x fa-fire"></i>
@@ -77,7 +78,6 @@
       </section>
 
       <section id="pricing">
-
         <div class="trombone">
           <h3>TENOR TROMBONE</h3>
           <h4>$600</h4>
@@ -119,13 +119,14 @@
 
   <footer>
     <ul>
-      <li>Privacy</li>
-      <li>Terms</li>
-      <li>Contact</li>
+      <li><a href="#">Privacy</a></li>
+      <li><a href="#">Terms</a></li>
+      <li><a href="#">Contact</a></li>
     </ul>
     <p>Copyright 2021, Original Trombones</p>
   </footer>
 
+  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </body>
 
 </html>

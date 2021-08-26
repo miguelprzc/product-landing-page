@@ -113,7 +113,7 @@ iframe {
 .trombone {
   border: solid #000 1px;
   border-radius: 5px;
-  width: 60%;
+  width: 300px;
   margin: 10px auto;
   text-align: center;  
 }
@@ -153,4 +153,74 @@ iframe {
 
 .buy-btn:hover {
   background-color: rgb(255, 179, 116);
+}
+
+footer {
+  background-color: rgb(208, 208, 214);
+  margin-top: 20px;
+  padding: 2%;
+  text-align: right;
+}
+
+footer ul {
+  display: inline-block; 
+  list-style-type: none;
+  padding: 10px;
+  width: 100%;
+}
+
+footer li {
+  display: inline-block;
+  font-weight: 400;
+  margin: 0 10px;
+}
+
+footer p {
+  font-weight: 200;
+  text-align: right;
+}
+
+/* ----- MEDIA QUERIES ----- */
+
+@media (min-width: 576px) {
+
+  .features {
+    margin: 40px 0;
+  }
+  .grid { 
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-areas: " icon h3"
+                          "icon p";
+  }
+
+  .icon {
+    grid-area: icon;
+    visibility: visible;
+    color: rgb(240, 163, 21);
+    text-align: center;
+    align-self: center;
+  }
+
+  h3 {
+    grid-area: h3;
+    text-align: left;
+  }
+
+  p {
+    grid-area: p3;
+    text-align: left;
+  }
+}
+
+@media (min-width: 768px) {
+  header {
+    flex-direction: row;
+    justify-content: left
+  }
+  
+  nav {
+    margin-left: auto;
+    margin-right: 10%;
+  }
 }
