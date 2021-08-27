@@ -49,7 +49,7 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-This button was created as a submission to a [Product Landing Page Project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page) challenge. The task was to take a flat design and translate it into code.
+This site was created as a submission to a [Product Landing Page Project](https://www.freecodecamp.org/learn/responsive-web-design/responsive-web-design-projects/build-a-product-landing-page) challenge. The task was to take a flat design and translate it into code.
 
 ## Contact
 
